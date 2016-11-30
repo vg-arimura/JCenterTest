@@ -10,6 +10,10 @@ ext {
 
     libraryDescription = 'just dummy package'
     libraryVersion = '0.0.1'
+
+    developerId = 'hormiga6'
+    developerName = 'hormiga6'
+    developerEmail = 'dummy-email@dummy-email.com'
 }
 
 android {
@@ -44,4 +48,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-apply from: 'https://raw.githubusercontent.com/vg-arimura/JCenterTest/master/dummy/build.gradle'
+apply from: 'https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle'
